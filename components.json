@@ -1,0 +1,7 @@
+{
+	"name": "chart-js-project",
+	"dependencies": {
+		"bourbon": "latest",
+		"neat": "latest"
+	}
+}
