@@ -1,0 +1,89 @@
+@import "../../libraries/foundation/scss/foundation.scss";
+@import "../../libraries/foundation/scss/normalize";
+@import "../../libraries/foundation/scss/foundation/settings";
+
+@import "colors";
+@import "fonts";
+
+body {
+	margin: 0;
+
+	background: $pila-dark;
+
+	h1, h2, h3, h4, h5, p, a, span, input, button, .pila-button {
+		font-family: 'circularstd';
+	}
+}
+
+//components 
+
+.pila-button {
+	background: $pila-main;
+	color: white;
+
+	&.reverse {
+		background: $pila-dark;
+		color: white;
+	}
+
+	&:hover {
+		&.reverse {
+			background: $pila-dark-hover;
+		}
+	}
+}
+
+//end of components
+
+#main {
+	background: white;
+	background: url('../images/pattern2 adjusted.jpg');		
+	background-size: cover;	
+	
+	.container {
+		padding: 180px 0;
+	}
+
+	.row {
+		max-width: 32rem;
+		background: $pila-main;
+		text-align: center;
+	}
+
+	#title {
+		height: 165px;
+		display: inline-block;
+		padding-top: 65px;
+		padding-bottom: 24px;
+	}
+
+	#tagline {
+		padding-bottom: 64px;
+	}
+
+	h3, h2 {
+		color: white;
+		text-align: center;
+		display: block;
+		margin: 0;
+	}
+}
+
+#cta {
+	padding: 64px 0;
+	background: $pila-main;
+
+	h5 {
+		color: white;
+	}
+}
+
+#footer {
+	background: $pila-dark;
+	padding: 20px 0;
+
+	span, i, h5 {
+		color: white;
+		opacity: 0.5;
+	}
+}
