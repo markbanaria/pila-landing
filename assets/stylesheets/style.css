@@ -6515,18 +6515,18 @@ th {
   font-weight: 900; }
 body {
   margin: 0;
-  background: #6e0b0b; }
+  background: #9b2802; }
   body h1, body h2, body h3, body h4, body h5, body p, body a, body span, body input, body button, body .pila-button {
     font-family: 'circularstd'; }
 
 .pila-button {
-  background: #a11010;
+  background: #b43e01;
   color: white; }
   .pila-button.reverse {
-    background: #6e0b0b;
+    background: #9b2802;
     color: white; }
   .pila-button:hover.reverse {
-    background: #590d0d; }
+    background: #4b1401; }
 
 #main {
   background: white;
@@ -6536,7 +6536,7 @@ body {
     padding: 180px 0; }
   #main .row {
     max-width: 32rem;
-    background: #a11010;
+    background: #b43e01;
     text-align: center; }
   #main #title {
     height: 165px;
@@ -6553,12 +6553,12 @@ body {
 
 #cta {
   padding: 64px 0;
-  background: #a11010; }
+  background: #b43e01; }
   #cta h5 {
     color: white; }
 
 #footer {
-  background: #6e0b0b;
+  background: #9b2802;
   padding: 20px 0; }
   #footer span, #footer i, #footer h5 {
     color: white;
